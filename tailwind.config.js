@@ -36,7 +36,7 @@ module.exports = {
       },
       'whiteText': '#EFEFEF',
       'bgWHITE': '#EFEFEF',
-      'bgDARK': '#232323'
+      'bgDARK': '#212121'
     },
     fontFamily: {
       primary: ['Roboto', 'sans-serif'],

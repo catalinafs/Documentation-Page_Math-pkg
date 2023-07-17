@@ -1,19 +1,9 @@
 import React from 'react';
-import SectionTitle from '@/atoms/SectionTitle';
+import SectionTitle from '@/components/SectionTitle';
 
-type PropsInfo = {
-    isMobileMd: string
-}
-
-const Info = ({ isMobileMd }: PropsInfo) => {
-    // max-w-[68rem] p-[30px] md:py-[30px] md:px-[50px] 
-    //     lg:top-0 md:relative md:top-[70px] z-10 sm:relative sm:top-[70px] lg:relative
-
+const Info = () => {
     return (
-        <aside
-            className={`max-w-[68rem] p-[30px] lg:py-[30px] lg:px-[30px] lg:top-0 z-10 
-            ${isMobileMd}`}
-        >
+        <aside className='max-w-[68rem] p-[30px] sm:p-[50px]'>
             <section id='Introduction' className='mb-14'>
                 <SectionTitle text='Introduction' />
 
@@ -165,7 +155,7 @@ const Info = ({ isMobileMd }: PropsInfo) => {
                 </article>
             </section>
 
-            <section id='Test' className='' >
+            <section id='Test' className='mb-14' >
                 <SectionTitle text='Test' />
 
                 <article className='text-base px-[20px] py-[15px] flex flex-col gap-4'>
@@ -181,11 +171,17 @@ const Info = ({ isMobileMd }: PropsInfo) => {
                     <code className='whitespace-pre leading-loose bg-[#e9e9e9] p-[20px] m-[10px] rounded-R12 overflow-auto'>
                         npm test
                     </code>
-                    <p>Have some fun with the package!!!</p>
-                    <p>And a little bit of good luck.</p>
-                    <p>I'm just kidding, <span className='text-[#00ab5b] font-bold'>happy hacking!</span></p>
                 </article>
             </section>
+
+            <p>Have some fun with the package!!!</p>
+            <span className='text-[#00ab5b] font-bold'>Happy Hacking!</span>
+
+            <section className='mt-8'>
+                <p className='text-sm text-[#777777]'>
+                    All rights reserved @ 2022 <strong>Catalina<span className='text-[#00ab5bb8] font-bold'>Developer</span></strong>
+                </p>
+            </section>  
         </aside>
     );
 }
