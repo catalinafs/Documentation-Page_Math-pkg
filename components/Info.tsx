@@ -64,7 +64,7 @@ const Info = () => {
 
                 <article className='text-base sm:px-[20px] sm:py-[20px] p-[10px] flex flex-col gap-4'>
                     <code className='whitespace-pre leading-loose bg-codeBG p-[20px] m-[10px] rounded-R12 overflow-auto'>
-                        // basic operations
+                        {`// basic operations
                         <br />
                         sum(2, 2);                      // 4
                         <br />
@@ -98,7 +98,7 @@ const Info = () => {
                         <br />
                         parallelogramPerimeter(8, 7);   // 30
                         <br />
-                        trapezoidPerimeter(5, 6, 5, 8); // 24
+                        trapezoidPerimeter(5, 6, 5, 8); // 24`}
                     </code>
                 </article>
             </section>
