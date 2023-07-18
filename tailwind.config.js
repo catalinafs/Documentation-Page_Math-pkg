@@ -13,30 +13,15 @@ module.exports = {
       xl: '1440px'
     },
     colors: {
-      'RED': '#ee042c',
-      'red': '#B22D33',
-      'redNormal': '#dd403a',
-      'blue': '#1fb6ff',
-      'purple': '#7e5bef',
-      'orange': '#ff7849',
-      'green-light': '#13ce66',
-      'green': '#69B865',
-      'yellow': '#ffc82c',
-      'gray-blue': '#273444',
+      'green': '#00ab5b',
+      'transparent-green': '#00ab5bb8',
       gray: {
-        100: '#EAEAEA',
-        200: '#C7C7C7',
-        300: '#9D9D9D',
-        400: '#5C5C5C',
-        450: '#515751',
-        500: '#444444',
-        600: '#373737',
-        700: '#2E2E2E',
-        800: '#232323'
+        100: '#666666',
+        200: '#cccccc',
+        300: '#777777'
       },
-      'whiteText': '#EFEFEF',
-      'bgWHITE': '#EFEFEF',
-      'bgDARK': '#212121'
+      'bgWHITE': '#ffffff',
+      'codeBG': '#e9e9e9'
     },
     fontFamily: {
       primary: ['Roboto', 'sans-serif'],

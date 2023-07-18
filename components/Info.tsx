@@ -3,7 +3,7 @@ import SectionTitle from '@/components/SectionTitle';
 
 const Info = () => {
     return (
-        <aside className='max-w-[68rem] p-[30px] sm:p-[50px]'>
+        <aside className='max-w-[68rem] p-[30px] sm:p-[50px] z-10'>
             <section id='Introduction' className='mb-14'>
                 <SectionTitle text='Introduction' />
 
@@ -54,7 +54,7 @@ const Info = () => {
                         Install mathematical-pkg using <a href='https://www.npmjs.com/package/mathematical-pkg'>npm</a>:
                         <br />
                     </p>
-                    <code className='whitespace-pre leading-loose bg-[#e9e9e9] p-[20px] m-[10px] rounded-R12 overflow-auto'>
+                    <code className='whitespace-pre leading-loose bg-codeBG p-[20px] m-[10px] rounded-R12 overflow-auto'>
                         npm install mathematical-pkg
                     </code>
                 </article>
@@ -63,7 +63,7 @@ const Info = () => {
                 <SectionTitle text='Example of Usage' />
 
                 <article className='text-base sm:px-[20px] sm:py-[20px] p-[10px] flex flex-col gap-4'>
-                    <code className='whitespace-pre leading-loose bg-[#e9e9e9] p-[20px] m-[10px] rounded-R12 overflow-auto'>
+                    <code className='whitespace-pre leading-loose bg-codeBG p-[20px] m-[10px] rounded-R12 overflow-auto'>
                         // basic operations
                         <br />
                         sum(2, 2);                      // 4
@@ -120,13 +120,13 @@ const Info = () => {
                     <p>
                         First clone the project from github:
                     </p>
-                    <code className='whitespace-pre leading-loose bg-[#e9e9e9] p-[20px] m-[10px] rounded-R12 overflow-auto'>
+                    <code className='whitespace-pre leading-loose bg-codeBG p-[20px] m-[10px] rounded-R12 overflow-auto'>
                         npm install mathematical-pkg
                     </code>
                     <p>
                         Install the project dependencies:
                     </p>
-                    <code className='whitespace-pre leading-loose bg-[#e9e9e9] p-[20px] m-[10px] rounded-R12 overflow-auto'>
+                    <code className='whitespace-pre leading-loose bg-codeBG p-[20px] m-[10px] rounded-R12 overflow-auto'>
                         npm install or npm i
                     </code>
                 </article>
@@ -162,24 +162,24 @@ const Info = () => {
                     <p>
                         To execute tests for the library, install the project dependencies once:
                     </p>
-                    <code className='whitespace-pre leading-loose bg-[#e9e9e9] p-[20px] m-[10px] rounded-R12 overflow-auto'>
+                    <code className='whitespace-pre leading-loose bg-codeBG p-[20px] m-[10px] rounded-R12 overflow-auto'>
                         npm install
                     </code>
                     <p>
                         Then, the tests can be executed:
                     </p>
-                    <code className='whitespace-pre leading-loose bg-[#e9e9e9] p-[20px] m-[10px] rounded-R12 overflow-auto'>
+                    <code className='whitespace-pre leading-loose bg-codeBG p-[20px] m-[10px] rounded-R12 overflow-auto'>
                         npm test
                     </code>
                 </article>
             </section>
 
             <p>Have some fun with the package!!!</p>
-            <span className='text-[#00ab5b] font-bold'>Happy Hacking!</span>
+            <span className='text-green font-bold'>Happy Hacking!</span>
 
             <section className='mt-8'>
-                <p className='text-sm text-[#777777]'>
-                    All rights reserved @ 2022 <strong>Catalina<span className='text-[#00ab5bb8] font-bold'>Developer</span></strong>
+                <p className='text-sm text-gray-300'>
+                    All rights reserved @ 2022 <strong>Catalina<span className='text-transparent-green font-bold'>Developer</span></strong>
                 </p>
             </section>  
         </aside>
